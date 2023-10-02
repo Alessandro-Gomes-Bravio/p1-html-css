@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a {
+    display: flex;
+    gap: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+li { 
+    list-style-type: none;
+}
