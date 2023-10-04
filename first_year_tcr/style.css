@@ -127,6 +127,8 @@ footer {
   margin: 15px;
 }
 .dropdowncontent {
+  display: flex;
+  flex-direction: column;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
